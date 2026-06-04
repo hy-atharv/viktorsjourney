@@ -1,12 +1,13 @@
 # Viktor's Journey 🏞️
 ### A Native Android Endless Runner Built Without a Game Engine
 
+
+
 <p align="center">
   <a href="https://youtu.be/2OdT4BC5_DQ">
     <img src="https://img.youtube.com/vi/2OdT4BC5_DQ/maxresdefault.jpg" alt="Viktor's Journey Gameplay" width="800">
   </a>
 </p>
-
 <p align="center">
   <b>Gameplay Video</b>
 </p>
