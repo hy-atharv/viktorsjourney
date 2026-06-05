@@ -55,7 +55,9 @@ import com.example.viktorsjourney.core.data.models.Map
 import com.example.viktorsjourney.ui.theme.GameTheme
 import kotlinx.coroutines.delay
 import org.koin.androidx.compose.koinViewModel
+import kotlin.div
 import kotlin.math.abs
+import kotlin.times
 
 @Composable
 fun SelectMapScreen(
@@ -72,13 +74,10 @@ fun SelectMapScreen(
     )
     val snapBehavior = rememberSnapFlingBehavior(lazyListState = lazyListState)
 
-    val density = LocalDensity.current
-    val configuration = LocalConfiguration.current
-
-    val screenPx = with(density) { ((configuration.screenWidthDp.dp/2)).toPx() }
+    val screenPx = 540f + 2f
 
     LaunchedEffect(hopCount) {
-        val totalDistance = (screenPx+2) *  (hopCount*2)    //hopCount to jump to last chosen Map
+        val totalDistance = screenPx *  (hopCount*2)    //hopCount to jump to last chosen Map
         val durationMs = 400L
         val frames = 240                          // 240 increments (smooth)
         val step = totalDistance / frames         // scroll per frame
