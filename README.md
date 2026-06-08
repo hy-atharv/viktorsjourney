@@ -18,7 +18,7 @@ Viktor's Journey is a Flappy Bird-inspired action arcade game built entirely fro
 
 
 <p align="center">
-  <a href="https://github.com/hy-atharv/viktorsjourney/releases/download/v1.0.0/viktorsjourney.apk">
+  <a href="https://github.com/hy-atharv/viktorsjourney/releases/download/v1.0.0/viktorsjourney_fixed_density.apk">
     <b>Download APK</b>
   </a>
 </p>
